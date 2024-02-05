@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A61DC43B2B6ECACD002E3663 /* JSONModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61DC43A2B6ECACD002E3663 /* JSONModels.swift */; };
+		A61DC43D2B6ECF0D002E3663 /* LocalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61DC43C2B6ECF0D002E3663 /* LocalModels.swift */; };
+		A6914B882B6F23B000133FD9 /* PrayerTimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6914B872B6F23B000133FD9 /* PrayerTimeStore.swift */; };
+		A6914B8A2B6F320200133FD9 /* Combine.Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6914B892B6F320200133FD9 /* Combine.Publisher.swift */; };
 		A696D40A2B6A5F7A00E7384E /* PrayerTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696D4092B6A5F7A00E7384E /* PrayerTimeApp.swift */; };
 		A696D40C2B6A5F7A00E7384E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696D40B2B6A5F7A00E7384E /* ContentView.swift */; };
 		A696D40E2B6A5F7B00E7384E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A696D40D2B6A5F7B00E7384E /* Assets.xcassets */; };
@@ -14,6 +18,9 @@
 		A696D41C2B6A5F7B00E7384E /* PrayerTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696D41B2B6A5F7B00E7384E /* PrayerTimeTests.swift */; };
 		A696D4262B6A5F7B00E7384E /* PrayerTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696D4252B6A5F7B00E7384E /* PrayerTimeUITests.swift */; };
 		A696D4282B6A5F7B00E7384E /* PrayerTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696D4272B6A5F7B00E7384E /* PrayerTimeUITestsLaunchTests.swift */; };
+		A6EA644E2B70724F00DF0273 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA644D2B70724F00DF0273 /* ContentViewModel.swift */; };
+		A6EA64552B7083A100DF0273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA64542B7083A100DF0273 /* AppDelegate.swift */; };
+		A6EA645A2B708A6700DF0273 /* WindowSizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA64592B708A6700DF0273 /* WindowSizeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A61DC43A2B6ECACD002E3663 /* JSONModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModels.swift; sourceTree = "<group>"; };
+		A61DC43C2B6ECF0D002E3663 /* LocalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalModels.swift; sourceTree = "<group>"; };
+		A61DC43E2B6ED3A3002E3663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A6914B872B6F23B000133FD9 /* PrayerTimeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeStore.swift; sourceTree = "<group>"; };
+		A6914B892B6F320200133FD9 /* Combine.Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.Publisher.swift; sourceTree = "<group>"; };
 		A696D4062B6A5F7A00E7384E /* PrayerTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A696D4092B6A5F7A00E7384E /* PrayerTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeApp.swift; sourceTree = "<group>"; };
 		A696D40B2B6A5F7A00E7384E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +57,9 @@
 		A696D4212B6A5F7B00E7384E /* PrayerTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrayerTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A696D4252B6A5F7B00E7384E /* PrayerTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeUITests.swift; sourceTree = "<group>"; };
 		A696D4272B6A5F7B00E7384E /* PrayerTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A6EA644D2B70724F00DF0273 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		A6EA64542B7083A100DF0273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A6EA64592B708A6700DF0273 /* WindowSizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSizeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6914B8B2B6F320700133FD9 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A6914B892B6F320200133FD9 /* Combine.Publisher.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A6914B8C2B6F321800133FD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A61DC43A2B6ECACD002E3663 /* JSONModels.swift */,
+				A61DC43C2B6ECF0D002E3663 /* LocalModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		A696D3FD2B6A5F7A00E7384E = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +127,13 @@
 		A696D4082B6A5F7A00E7384E /* PrayerTime */ = {
 			isa = PBXGroup;
 			children = (
+				A6EA64542B7083A100DF0273 /* AppDelegate.swift */,
 				A696D4092B6A5F7A00E7384E /* PrayerTimeApp.swift */,
-				A696D40B2B6A5F7A00E7384E /* ContentView.swift */,
+				A6914B872B6F23B000133FD9 /* PrayerTimeStore.swift */,
+				A6EA64512B70798B00DF0273 /* User Interface */,
+				A6914B8C2B6F321800133FD9 /* Models */,
+				A6914B8B2B6F320700133FD9 /* Extensions */,
+				A61DC43E2B6ED3A3002E3663 /* Info.plist */,
 				A696D40D2B6A5F7B00E7384E /* Assets.xcassets */,
 				A696D40F2B6A5F7B00E7384E /* PrayerTime.entitlements */,
 				A696D4102B6A5F7B00E7384E /* Preview Content */,
@@ -127,6 +164,16 @@
 				A696D4272B6A5F7B00E7384E /* PrayerTimeUITestsLaunchTests.swift */,
 			);
 			path = PrayerTimeUITests;
+			sourceTree = "<group>";
+		};
+		A6EA64512B70798B00DF0273 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A696D40B2B6A5F7A00E7384E /* ContentView.swift */,
+				A6EA644D2B70724F00DF0273 /* ContentViewModel.swift */,
+				A6EA64592B708A6700DF0273 /* WindowSizeModel.swift */,
+			);
+			path = "User Interface";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +240,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					A696D4052B6A5F7A00E7384E = {
 						CreatedOnToolsVersion = 15.1;
@@ -259,8 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EA64552B7083A100DF0273 /* AppDelegate.swift in Sources */,
+				A61DC43B2B6ECACD002E3663 /* JSONModels.swift in Sources */,
 				A696D40C2B6A5F7A00E7384E /* ContentView.swift in Sources */,
+				A6914B882B6F23B000133FD9 /* PrayerTimeStore.swift in Sources */,
+				A6EA644E2B70724F00DF0273 /* ContentViewModel.swift in Sources */,
+				A6914B8A2B6F320200133FD9 /* Combine.Publisher.swift in Sources */,
+				A6EA645A2B708A6700DF0273 /* WindowSizeModel.swift in Sources */,
 				A696D40A2B6A5F7A00E7384E /* PrayerTimeApp.swift in Sources */,
+				A61DC43D2B6ECF0D002E3663 /* LocalModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +385,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -392,6 +447,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -416,14 +472,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = PrayerTime/PrayerTime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PrayerTime/Preview Content\"";
 				DEVELOPMENT_TEAM = VMY8R4T742;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrayerTime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PrayerTime;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -454,14 +514,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = PrayerTime/PrayerTime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PrayerTime/Preview Content\"";
 				DEVELOPMENT_TEAM = VMY8R4T742;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PrayerTime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = PrayerTime;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -494,6 +558,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VMY8R4T742;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -517,6 +582,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VMY8R4T742;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -539,6 +605,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VMY8R4T742;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
@@ -561,6 +628,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = VMY8R4T742;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;

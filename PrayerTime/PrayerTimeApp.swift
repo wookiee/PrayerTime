@@ -1,17 +1,13 @@
-//
-//  PrayerTimeApp.swift
-//  PrayerTime
-//
-//  Created by Mikey Ward on 1/31/24.
-//
 
 import SwiftUI
+import AppKit
 
 @main
 struct PrayerTimeApp: App {
+    
+    @NSApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+        Settings {} // just because the body can't be empty
     }
 }
