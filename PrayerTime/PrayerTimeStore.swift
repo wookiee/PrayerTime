@@ -5,7 +5,7 @@ import Combine
 class PrayerTimeStore: ObservableObject {
     
     @Published private(set) var prayerTimes: [PrayerTime] = []
-    @Published private(set) var nextPrayerTime: PrayerTime = .empty
+    @Published private(set) var nextPrayerTime: PrayerTime = PrayerTime(name: "", date: .now)
     @Published private(set) var timeToNextPrayer: TimeInterval = 0
     
     let everySecond = Timer.publish(every: 1, on: .main, in: .common)
