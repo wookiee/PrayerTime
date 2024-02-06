@@ -6,7 +6,7 @@ import Foundation
 struct ContentView: View {
     
     @StateObject var vm = ContentViewModel()
-    @EnvironmentObject var sizeModel: WindowSizeModel
+    @EnvironmentObject var sizeModel: AppWindowSizeModel
     
     var primaryText: some View {
         Text(vm.primaryContent)
@@ -27,14 +27,12 @@ struct ContentView: View {
         }
         .padding()
         .background(GeometryReader { geometry in
-            Color.clear
+            vm.backgroundColor
                 .onAppear {
                     sizeModel.size = geometry.size
                 }
         })
     }
-    
-    
 }
 
 #Preview {

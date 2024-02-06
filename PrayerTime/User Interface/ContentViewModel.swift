@@ -1,12 +1,14 @@
 
 import Foundation
 import Combine
+import SwiftUI
 
 @MainActor class ContentViewModel: ObservableObject {
     let store = PrayerTimeStore.shared
     
-    @Published var primaryContent: String = ""
-    @Published var secondaryContent: String = ""
+    @Published var primaryContent = ""
+    @Published var secondaryContent = ""
+    @Published var backgroundColor = Color.white.opacity(0.5)
     
     private var subs = Set<AnyCancellable>()
     
@@ -25,12 +27,16 @@ import Combine
     
     private func configureSubscriptions() {
         store.$nextPrayerTime
-            .map { "\($0.name) at \($0.date.formatted(date: .omitted, time: .shortened))" }
-            .print()
+            .filter { $0.name != "" }
+            .map { // string to display in the primary Text
+                "\($0.name) at \($0.date.formatted(date: .omitted, time: .shortened))"
+            }
             .assign(to: &$primaryContent)
         
         store.$timeToNextPrayer
-            .map { "in \(self.timeFormatter.string(from: $0) ?? "spacetime")" }
+            .map { // string to display in the secondary Text
+                "in \(self.timeFormatter.string(from: $0) ?? "spacetime")"
+            }
             .assign(to: &$secondaryContent)
     }
 }

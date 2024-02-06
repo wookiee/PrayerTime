@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A61DC43B2B6ECACD002E3663 /* JSONModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61DC43A2B6ECACD002E3663 /* JSONModels.swift */; };
 		A61DC43D2B6ECF0D002E3663 /* LocalModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61DC43C2B6ECF0D002E3663 /* LocalModels.swift */; };
+		A61E38F82B71A09600CEBD42 /* AppWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A61E38F72B71A09600CEBD42 /* AppWindow.swift */; };
 		A6914B882B6F23B000133FD9 /* PrayerTimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6914B872B6F23B000133FD9 /* PrayerTimeStore.swift */; };
 		A6914B8A2B6F320200133FD9 /* Combine.Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6914B892B6F320200133FD9 /* Combine.Publisher.swift */; };
 		A696D40A2B6A5F7A00E7384E /* PrayerTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696D4092B6A5F7A00E7384E /* PrayerTimeApp.swift */; };
@@ -20,7 +21,6 @@
 		A696D4282B6A5F7B00E7384E /* PrayerTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696D4272B6A5F7B00E7384E /* PrayerTimeUITestsLaunchTests.swift */; };
 		A6EA644E2B70724F00DF0273 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA644D2B70724F00DF0273 /* ContentViewModel.swift */; };
 		A6EA64552B7083A100DF0273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA64542B7083A100DF0273 /* AppDelegate.swift */; };
-		A6EA645A2B708A6700DF0273 /* WindowSizeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EA64592B708A6700DF0273 /* WindowSizeModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,7 @@
 		A61DC43A2B6ECACD002E3663 /* JSONModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModels.swift; sourceTree = "<group>"; };
 		A61DC43C2B6ECF0D002E3663 /* LocalModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalModels.swift; sourceTree = "<group>"; };
 		A61DC43E2B6ED3A3002E3663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A61E38F72B71A09600CEBD42 /* AppWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWindow.swift; sourceTree = "<group>"; };
 		A6914B872B6F23B000133FD9 /* PrayerTimeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeStore.swift; sourceTree = "<group>"; };
 		A6914B892B6F320200133FD9 /* Combine.Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combine.Publisher.swift; sourceTree = "<group>"; };
 		A696D4062B6A5F7A00E7384E /* PrayerTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrayerTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,7 +60,6 @@
 		A696D4272B6A5F7B00E7384E /* PrayerTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A6EA644D2B70724F00DF0273 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		A6EA64542B7083A100DF0273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A6EA64592B708A6700DF0273 /* WindowSizeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowSizeModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +171,7 @@
 			children = (
 				A696D40B2B6A5F7A00E7384E /* ContentView.swift */,
 				A6EA644D2B70724F00DF0273 /* ContentViewModel.swift */,
-				A6EA64592B708A6700DF0273 /* WindowSizeModel.swift */,
+				A61E38F72B71A09600CEBD42 /* AppWindow.swift */,
 			);
 			path = "User Interface";
 			sourceTree = "<group>";
@@ -307,12 +307,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6EA64552B7083A100DF0273 /* AppDelegate.swift in Sources */,
+				A61E38F82B71A09600CEBD42 /* AppWindow.swift in Sources */,
 				A61DC43B2B6ECACD002E3663 /* JSONModels.swift in Sources */,
 				A696D40C2B6A5F7A00E7384E /* ContentView.swift in Sources */,
 				A6914B882B6F23B000133FD9 /* PrayerTimeStore.swift in Sources */,
 				A6EA644E2B70724F00DF0273 /* ContentViewModel.swift in Sources */,
 				A6914B8A2B6F320200133FD9 /* Combine.Publisher.swift in Sources */,
-				A6EA645A2B708A6700DF0273 /* WindowSizeModel.swift in Sources */,
 				A696D40A2B6A5F7A00E7384E /* PrayerTimeApp.swift in Sources */,
 				A61DC43D2B6ECF0D002E3663 /* LocalModels.swift in Sources */,
 			);
@@ -475,7 +475,6 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = PrayerTime/PrayerTime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PrayerTime/Preview Content\"";
 				DEVELOPMENT_TEAM = VMY8R4T742;
@@ -499,7 +498,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = io.mikey.PrayerTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -518,7 +517,6 @@
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = PrayerTime/PrayerTime.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"PrayerTime/Preview Content\"";
 				DEVELOPMENT_TEAM = VMY8R4T742;
@@ -542,7 +540,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.2;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = io.mikey.PrayerTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
